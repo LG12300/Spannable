@@ -1,6 +1,6 @@
+[![](https://jitpack.io/v/senseless00/Spannable.svg)](https://jitpack.io/#senseless00/Spannable)
 安卓富文本框架，用dsl方式拼接富文本
 
-simple:
 ```
 val textView = findViewById<TextView>(R.id.text)
 textView.text = buildSpannableString {
@@ -15,4 +15,23 @@ textView.text = buildSpannableString {
         bold()
     }
 }
+```
+
+Step 1. Add the JitPack repository to your build file
+
+Add it in your root build.gradle at the end of repositories:
+```groovy
+	allprojects {
+		repositories {
+			...
+			maven { url 'https://jitpack.io' }
+		}
+	}
+```
+
+Step 2. Add the dependency
+```groovy
+	dependencies {
+	        implementation 'com.github.senseless00:Spannable:Tag'
+	}
 ```
