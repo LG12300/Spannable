@@ -1,5 +1,4 @@
-[![](https://jitpack.io/v/senseless00/Spannable.svg)](https://jitpack.io/#senseless00/Spannable)
-安卓富文本框架，用dsl方式拼接富文本
+## 安卓富文本框架，用dsl方式拼接富文本
 
 ```
 val textView = findViewById<TextView>(R.id.text)
@@ -30,6 +29,7 @@ Add it in your root build.gradle at the end of repositories:
 ```
 
 Step 2. Add the dependency
+[![](https://jitpack.io/v/senseless00/Spannable.svg)](https://jitpack.io/#senseless00/Spannable)
 ```groovy
 	dependencies {
 	        implementation 'com.github.senseless00:Spannable:Tag'
