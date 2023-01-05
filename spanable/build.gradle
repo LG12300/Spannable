@@ -41,17 +41,8 @@ afterEvaluate {
                 from components.release
 
                 // You can then customize attributes of the publication as shown below.
-                groupId = 'com.github.senseless00'
+                groupId = 'com.github.senselesscn'
                 artifactId = 'Spannable'
-                version = '1.0.0'
-            }
-            // Creates a Maven publication called “debug”.
-            debug(MavenPublication) {
-                // Applies the component for the debug build variant.
-                from components.debug
-
-                groupId = 'com.github.senseless00'
-                artifactId = 'Spannable-debug'
                 version = '1.0.0'
             }
         }
